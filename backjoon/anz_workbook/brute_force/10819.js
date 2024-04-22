@@ -23,6 +23,7 @@ const dfs = () => {
       }
     } else {
       for (let i = 0; i < n; i++) {
+        // 자기 자신은 건너뜀
         if (isSelected[i]) {
           continue;
         }
