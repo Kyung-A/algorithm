@@ -1,11 +1,4 @@
 // 빈도수 세기 패턴
-const fs = require("fs");
-const [[...arr1], [...arr2]] = fs
-  .readFileSync("example.txt")
-  .toString()
-  .trim()
-  .split("\n")
-  .map((str1) => str1.split(" ").map((v) => +v));
 
 // 나의 풀이
 arr1.sort((a, b) => a - b);

@@ -1,10 +1,4 @@
 // 빈도수 세기 패턴
-const fs = require("fs");
-const [str1, str2] = fs
-  .readFileSync("example.txt")
-  .toString()
-  .trim()
-  .split(" ");
 
 // 나의 풀이
 // 유데미 IDE에서는 계속 Expected true to be false. 라는 에러를 뱉으면서 통과가 안되었다 => 이유를 모르겠음 다 맞는디... => 그냥 정답으로 등록한 코드랑 하나만 틀려도 통과가 안되는듯
